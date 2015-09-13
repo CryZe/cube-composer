@@ -62,6 +62,13 @@ chapter4 = {
             difficulty: Hard,
             initial: [[Cyan, Orange], [Cyan, Cyan, Orange], [Orange, Orange], [Cyan, Cyan, Orange], [Cyan, Orange]],
             target: [[Orange, Cyan], [Orange, Orange], [Orange, Cyan], [Orange, Orange], [Orange, Cyan]]
+        },
+        "4.3" :-> {
+          name: "Okok",
+          help: Just """Just do it.""",
+          difficulty: Easy,
+          initial: [[Orange, Cyan, Orange, Cyan], [Brown, Orange, Cyan], [Orange, Brown, Brown], [Brown, Orange, Cyan], [Orange, Cyan, Orange, Cyan]],
+          target: [[Orange, Orange], [Brown, Orange, Orange], [Orange, Brown, Brown], [Brown, Orange, Orange], [Orange, Orange]]
         }
     ]
 }
